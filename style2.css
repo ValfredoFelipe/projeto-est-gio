@@ -5,18 +5,129 @@
     justify-content: space-between;
     align-items: flex-start;
     position: absolute;
-    left: 35px;
+    left: 0px;
     top: 400px;
-    border: 1px solid black;
-    height: 500px;
-    width: 500px;
+    border: 1px solid rgb(9, 159, 245);
+    width: 600px;
+    height: 300px;
+    background-color: transparent
+    
+    
+}
     
 .primeira-noticia{
 
-    /* border: 1px solid black;
+    display: block;
+    
+    border: 1px solid black;
     height: 280px;
-    width: 250px; */
+    width: 250px;
+    padding-left: 35px;
+    background-color: transparent;
+}
+.imagem10{
+    
+    background-size: cover;
+    height: 200px;
+    width: 250px;
+
 }
 .segunda-noticia{
+    display: block;
+    padding-right: 35px;
+    border: 1px solid black;
+    height: 280px;
+    width: 250px;
+    
+    background-color: transparent;
+
+}
+.imagem11{
+   
+    background-size: cover;
+    height: 200px;
+    width: 250px;
+    
+
+}
+.titulo-noticia{
+display: block;
+font-weight: bold;
+font-size: 1.35em;
+font-family: Arial, Helvetica, sans-serif;
+background-color: transparent; 
+border: 1px solid black; 
+}
+.divisoria2{
+    display: block;
+    margin-top: 10px;
+    margin-bottom: 30px;
+    height: 5px;
+    width: 100px;
+    background-image: linear-gradient(to right, #75c1c7, #675ea5);
+   
+}
+.divisoria3{
+    display: block;
+    margin-top: 10px;
+    margin-bottom: 30px;
+    height: 5px;
+    width: 100px;
+    background-image: linear-gradient(to right, #73c6cc,#39b389)
+   
+}
+
+.footer{
+    display: block;
+    position: relative;
+   
+    height: 150px;
+    width: 600px;
+    border: 1px solid rgb(182, 245, 9);
+    margin: auto;
+    background-color: transparent;
+
+}
+.retangulo{
+    display: flex;
+    /* flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start; */
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    border: 1px solid rgb(9, 159, 245);
+    width: 600px;
+    height: 85px;
+    background-color: #fc4c02;
+    margin: auto
+    ;
+    
+    
+}
+.imagem12{
+    
+    width: 260px;
+    height: 48px;
+    border: 1px solid rgb(9, 159, 245);
+    margin: auto;
+    mix-blend-mode: screen;
+    background-color: transparent;
+
+}
+.texto-footer{
+    display: block;
+    position: absolute;
+    left: 0px;
+    top: 85px;
+    width: 600px;
+    margin: auto;
+    text-align: center;
+
+}
+.clique-aqui{
+    text-decoration:underline;
+    pointer-events: pointer;
+    color: black;
 
 }

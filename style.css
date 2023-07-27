@@ -6,13 +6,13 @@
     
 }
 .corpo{
-    display: flex;
-    flex-direction: column;
+    display: block;
+    /* flex-direction: column;
     justify-content: flex-start;
-    align-items: flex-start;
+    align-items: flex-start; */
     border: 1px solid rgb(212, 63, 63);
     background-color: #f2f2f2;   
-    height: 1014px;
+    max-height: 1100px;
     width: 640px;
     padding: 0px 20px 20px 20px;
     margin: auto;
@@ -21,10 +21,12 @@
 .principal{
     display: block;
     position: relative;
-    border: 1px solid rgb(212, 63, 63);
+    border: 1px solid rgb(139, 224, 28);
     background-color: #ffffff;   
-    height: 290px;
+    height: 200px;
     width: 600px;
+    margin: auto;
+
     
     
 }
@@ -147,15 +149,17 @@
     position: relative;
     border: 1px solid black;
     background-color: #ffffff;   
-    height: 1100px;
+    height: 750px;
     width: 600px;
+    margin: auto;
+    
 
 }
 .principal-primeira-secao{
-    display: flex;
-    flex-direction: column;
+    display: block;
+    /* flex-direction: column;
     justify-content: flex-start;
-    align-items: flex-start;
+    align-items: flex-start; */
     position: absolute;
     left: 35px;
     border: 1px solid rgb(10, 4, 4);
@@ -193,12 +197,12 @@
     color: #a4a7a7;
     background-color: transparent;
 }
-.divisoria{
+.divisoria1{
     display: block;
     margin-top: 10px;
     margin-bottom: 30px;
     height: 5px;
     width: 250px;
     background-image: linear-gradient(to right, #e4255a, #cd3d6a, #af4c80, #8d5592,#6a5ba3);
-    bac
+   
 }
