@@ -1,0 +1,22 @@
+
+.principal-segunda-secao{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    position: absolute;
+    left: 35px;
+    top: 400px;
+    border: 1px solid black;
+    height: 500px;
+    width: 500px;
+    
+.primeira-noticia{
+
+    /* border: 1px solid black;
+    height: 280px;
+    width: 250px; */
+}
+.segunda-noticia{
+
+}
